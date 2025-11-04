@@ -1,0 +1,9 @@
+{
+    "cmake.configureOnOpen": true,
+    "cmake.configurePreset": "default",
+    "cmake.buildPreset": "default",
+    "cmake.automaticReconfigure": true,
+    "files.associations": {
+        "memory.h": "c"
+    }
+}

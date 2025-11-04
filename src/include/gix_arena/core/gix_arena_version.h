@@ -4,8 +4,7 @@
 #include <gix_arena/utils/gix_arena_define.h>
 
 #ifdef __cplusplus
-extern "C"
-{
+extern "C" {
 #endif
 
 #ifndef GIX_ARENA_MAJOR_VERSION
@@ -35,19 +34,19 @@ extern "C"
     ((GIX_ARENA_MAJOR_VERSION << 16) | (GIX_ARENA_MINOR_VERSION << 8) | \
      GIX_ARENA_PATCH_VERSION)
 
-    /**
-     * @brief Get version of Gix Arena in string.
-     *
-     * @return const char*
-     */
-    GAAPI const char *gix_arena_version(void);
+/**
+ * @brief Get version of Gix Arena in string.
+ *
+ * @return String literal of the Gix Arena version.
+ */
+GAAPI const char* gix_arena_version(void);
 
-    /**
-     * @brief Get version of Gix Arena in number.
-     *
-     * @return int
-     */
-    GAAPI int gix_arena_version_num(void);
+/**
+ * @brief Get version of Gix Arena in number.
+ *
+ * @return Number of the Gix Arena version.
+ */
+GAAPI int gix_arena_version_num(void);
 
 #ifdef __cplusplus
 }

@@ -13,13 +13,13 @@ extern "C" {
     Major version not defined
 #endif
 #ifndef GIX_ARENA_MINOR_VERSION
-#define GIX_ARENA_MAJOR_VERSION \
+#define GIX_ARENA_MINOR_VERSION \
     Error:                      \
     Minor version not defined
 #endif
 
 #ifndef GIX_ARENA_PATCH_VERSION
-#define GIX_ARENA_MAJOR_VERSION \
+#define GIX_ARENA_PATCH_VERSION \
     Error:                      \
     Patch version not defined
 #endif
